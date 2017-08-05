@@ -9,6 +9,15 @@ A simple, clean theme for Ghost.
 4. Scroll down to the Themes section and click on the green Upload a Theme button.
 5. Choose the theme zip file you downloaded in step one.
 
+## Add Disqus or Whatever
+
+1. Go to your blog directory.
+2. Go to `content/themes/wonderland/partials`.
+3. Open `disqus.hbs` with your editor.
+4. Paste your disqus code or whatever you like.
+5. Save and quit.
+6. Restart ghost instance.
+
 ![](./assets/screenshot-desktop.png)
 
-![](https://ws4.sinaimg.cn/large/006tNc79ly1fi4el2f0vxj31kw0vun53.jpg)
+![](https://ws1.sinaimg.cn/large/006tKfTcly1fi8n8lwie4j31kw0vgai8.jpg)
