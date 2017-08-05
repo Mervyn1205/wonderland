@@ -34,11 +34,12 @@
                 <div class="article-tag">
                     <i class="fa fa-tag"></i>
                     {{#foreach tags}}
-                    <a class="tag-link" href="{{url}}">{{name}}</a>
+                    <a class="tag-link" href="{{url}}">{{name}}</a>{{#unless @last}}, {{/unless}}
                     {{/foreach}}
                 </div>
             </span>
         </li>
         {{/foreach}}
     </ul>
+    {{pagination}}
 </section>

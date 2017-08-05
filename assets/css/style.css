@@ -19,7 +19,8 @@ html {
 body {
     color: #a5dee5;
     background-color: #2a363b;
-    font-size: 14px;
+    font-size: 15px;
+    letter-spacing: 0.5px;
     font-family: "Chalkboard", "comic sans", "PingFang SC", "Meslo LG", "sans-serif";
     font-weight: 400;
     line-height: 1.725;
@@ -33,6 +34,11 @@ body {
 
 p {
     text-align: justify;
+}
+
+p:first-letter {
+    font-size: 17px;
+    color: #9efcb4;
 }
 
 .content {
@@ -193,7 +199,7 @@ p {
 
 .content h1, .content .h1 {
     letter-spacing: 0.01em;
-    font-size: 1.5em;
+    font-size: 1.7em;
     font-style: normal;
     font-weight: 700;
     color: #2bbc8a;
@@ -206,7 +212,7 @@ p {
 
 .content h2, .content .h2 {
     position: relative;
-    font-size: 1rem;
+    font-size: 1.4rem;
     font-weight: bold;
     text-transform: none;
     letter-spacing: normal;
@@ -263,6 +269,8 @@ section#tags .tagcloud a::before {
 }
 
 .post-list .post-item {
+    list-style-type: none;
+    margin-left: 0;
     display: flex;
     margin-bottom: 5px;
 }
@@ -287,6 +295,13 @@ section#tags .tagcloud a::before {
 
 .article-tag .tag-link:before {
     content: "#";
+    color: #ffa5a5;
+}
+
+nav.pagination {
+    justify-content: space-between;
+    display: flex;
+    margin-top: 3rem;
 }
 
 #footer {
@@ -302,14 +317,22 @@ section#tags .tagcloud a::before {
 }
 
 #footer .footer-left {
-    float: left;
     height: 20px;
     line-height: 20px;
     vertical-align: middle;
 }
 
-#footer .footer-right {
+@media (min-width: 39rem) {
+  #footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  #footer .footer-left {
+    float: left;
+  }
+  #footer .footer-right {
     float: right;
+  }
 }
 
 #footer ul {
