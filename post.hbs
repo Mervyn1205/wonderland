@@ -30,6 +30,16 @@
                     <a class="tag-link" href="{{url}}">{{name}}</a>
                 {{/foreach}}
             </div>
+
+            <div>
+                <span class="eta">
+                    There are 
+                    <span class="word-count" style="color:#FFA5A5;"></span> 
+                    words that may take 
+                    <span class="read-time" style="color:#FFA5A5"></span>
+                    minutes
+                </span>
+            </div>
         </div>
     </header>
 
@@ -37,6 +47,10 @@
 </article>
 
 <div class="blog-post-comments">
-    {{> "disqus"}}
+    {{> "comment"}}
 </div>
 {{/post}}
+
+{{#contentFor "scripts"}}
+<script type="text/javascript" async src="{{asset "js/eta.js"}}"></script>
+{{/contentFor}}
