@@ -164,6 +164,11 @@ p:first-letter {
     background: none;
 }
 
+.content a.post-item-list {
+    color: #9efcb4;
+    white-space: nowrap;
+}
+
 .content h1 {
     letter-spacing: 0.01em;
     font-size: 1.5em;
