@@ -166,7 +166,7 @@ p:first-letter {
 
 .content a.post-item-list {
     color: #9efcb4;
-    white-space: nowrap;
+    /* white-space: nowrap; */
 }
 
 .content h1 {
