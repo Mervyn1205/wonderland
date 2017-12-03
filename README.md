@@ -20,4 +20,4 @@ A simple, clean theme for Ghost.
 
 ![](./assets/screenshot-desktop.png)
 
-![](https://ws1.sinaimg.cn/large/006tKfTcly1fi8n8lwie4j31kw0vgai8.jpg)
+![](https://ws4.sinaimg.cn/large/006tKfTcgy1fm39oy4tavj31kw0x3ak0.jpg)
