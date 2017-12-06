@@ -13,7 +13,7 @@ A simple, clean theme for Ghost.
 
 1. Go to your blog directory.
 2. Go to `content/themes/wonderland/partials`.
-3. Open `disqus.hbs` with your editor.
+3. Open `comment.hbs` with your editor.
 4. Paste your disqus code or whatever you like.
 5. Save and quit.
 6. Restart ghost instance.
