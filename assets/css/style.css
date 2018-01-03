@@ -249,6 +249,30 @@ p:first-letter {
     line-height: 1.725;
 }
 
+.content table {
+    width: 100%;
+    font-size: 13px;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.content th {
+    font-size: 14px;
+    font-weight: bold;
+    color: #ffa5a5;
+    border-bottom: 1px dashed #ccc;
+    padding: 8px 8px;
+}
+
+.content td {
+    border-bottom: none;
+    padding: 9px 8px 0px 8px;
+}
+
+.content tr:last-child td {
+    padding-bottom: 9px;
+}
+
 section#tags {
     padding: 0 20px 5px 20px;
     display: flex;
