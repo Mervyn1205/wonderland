@@ -12,6 +12,7 @@
 
 html {
     height: 100%;
+    text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
 }
@@ -39,6 +40,13 @@ p {
 p:first-letter {
     font-size: 17px;
     color: #9efcb4;
+}
+
+blockquote {
+    margin: 1.6em 0;
+    border-left: .6em solid #9efcb4;
+    padding: 0 1.6em;
+    font-size: large;
 }
 
 .content {
