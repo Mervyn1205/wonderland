@@ -8,10 +8,34 @@ article .content h2:before {
     font-weight: bold;
 }
 
+article figure {
+    margin: 0 0 1.5em;
+}
+
+article img {
+    margin: 0 0 1.5em;
+    max-width: 100%;
+}
+
+article .kg-width-full img {
+    max-width: 100vw;
+}
+
+article .kg-width-wide img {
+    max-width: 1040px;
+}
+
+article figure figcaption {
+    margin: -4.5em 0 1.5em;
+    font-size: 90%;
+    line-height: 1.6em;
+    text-align: center;
+    opacity: 0.6;
+}
+
 article .content img {
     display: block;
-    max-width: 100%;
-    margin: 3rem auto;
+    margin: 4rem auto;
 }
 
 article .content code {
@@ -32,4 +56,15 @@ article .content pre {
     overflow-x: auto;
     margin: 0;
     padding: 8px;
+}
+
+article .kg-embed-card {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 1.5em 0 3em;
+    min-width: 100%;
 }
