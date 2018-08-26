@@ -17,5 +17,11 @@
     },
     "config": {
         "posts_per_page": 5
-    }
+    },
+    "keywords": [
+        "ghost-theme",
+        "wonderland",
+        "theme",
+        "ghost"
+    ]
 }
